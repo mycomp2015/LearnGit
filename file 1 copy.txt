@@ -1,0 +1,51 @@
+A straight forward knowledge tranfer algorithm for Extereme Machine Learning in time varied 
+
+Abstract
+	Knowledge transfer - Incremental learning - Introduction
+	Why do we need knowledge transfer
+		different set of images (formats) - size varied 
+	Extreme Learning machine for image classification
+	problem statement
+		different set of images at different times - size
+	Solution
+		Creating multiple train models for all set and incorporating the knowledge transfer amoung the models
+	Tested
+		using various standard datasets like, mnist, imagenet, places205, cifar-10 and 100
+
+Introudction
+	Knowledge transfer and incremental learning - introduction
+	extreme machine learning - breif intro - why not other algorithms (MLP, DBN, DBM, SAE, SDAE, CNN) - for image classification
+	Importance of Knowledge transfer 
+	Proposed work 
+
+	<organization of paper>
+
+Related Works
+	Works related to IL based on neural networks
+	Learn++
+	<all papers - DC meeting>
+
+Extereme Machine Learning
+	About ELM - algorithm - sketch 
+
+Proposed algorithm - Knowledge Transfer
+	Algorithm 
+	Proof of concept
+		a = b + c
+		where a = values got while considering all the inputs [mnist - all images][no split up]
+		      b = values got for first split up
+		      c = values got for second split up 
+			--- so on.
+	ELM++ algorithm 
+	
+Experimental Results and Analysis
+	
+	Dataset
+		mnist, imagenet, places205, cifar-10 and 100
+
+		mnist - splitted - 	tested with different size 
+			[size - 15x15]	28
+	
+		
+			
+	
